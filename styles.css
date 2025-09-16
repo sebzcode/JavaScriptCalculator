@@ -6,7 +6,7 @@ body{
     height: 100vh;
     background: rgb(208, 208, 208);
 }
-.calculator{
+#calculator{
     font-family: Arial, Helvetica, sans-serif;
     max-width: 500px;
     background: rgb(49, 49, 49);
@@ -20,7 +20,7 @@ body{
     background: rgb(65, 65, 65);
     padding: 20px;
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     text-align: left;
 }
 button{
@@ -54,4 +54,8 @@ button:active{
 }
 .operator-btn:active{
     background: rgb(255, 238, 205);
+}
+.clr-btn{
+    grid-column: 4;
+    background-color: rgb(76, 76, 76);
 }
